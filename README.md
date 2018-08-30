@@ -48,8 +48,9 @@ public class TextThumbSeekBar extends AppCompatSeekBar {
         canvas.drawText(progressText, thumbX, thumbY, mTextPaint);
     }
 }
+```
 
-custom_seekbar_progress.xml
+**custom_seekbar_progress.xml**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
@@ -78,8 +79,9 @@ custom_seekbar_progress.xml
         </scale>
     </item>
 </layer-list>
+```
 
-seekbar_custom_tick.xml
+**seekbar_custom_tick.xml**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape
@@ -93,8 +95,9 @@ seekbar_custom_tick.xml
         android:width="1dp"
         android:color="@color/color_gray"/>
 </shape>
+```
 
-shape_seek_bar_text_thumb.xml
+**shape_seek_bar_text_thumb.xml**
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shape
@@ -108,6 +111,7 @@ shape_seek_bar_text_thumb.xml
         android:width="1dp"
         android:color="@color/color_gray"/>
 </shape>
+```
 
 ###In style.xml
 ```xml
@@ -115,6 +119,7 @@ shape_seek_bar_text_thumb.xml
     <item name="android:progressBackgroundTint">@color/color_gray</item>
     <item name="android:progressTint">@color/white</item>
 </style>
+```
 
 ###And finaly in your layour
 ```xml
@@ -127,3 +132,4 @@ shape_seek_bar_text_thumb.xml
         android:tickMark="@drawable/seekbar_custom_tick"
         android:progressDrawable="@drawable/custom_seekbar_progress"
         android:thumb="@drawable/shape_seek_bar_text_thumb" />
+```
