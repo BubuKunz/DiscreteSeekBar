@@ -4,7 +4,7 @@ Example of discrete seekbar implemented by native tools
 ![](https://github.com/BubuKunz/DiscreteSeekBar/blob/master/discrete_seek_bar_step_0.jpg)
 ![](https://github.com/BubuKunz/DiscreteSeekBar/blob/master/disrete_seek_bar_step_3.jpg)
 
-###TextThumbSeekBar.class
+### TextThumbSeekBar.class
 ```java
 public class TextThumbSeekBar extends AppCompatSeekBar {
 
@@ -113,7 +113,7 @@ public class TextThumbSeekBar extends AppCompatSeekBar {
 </shape>
 ```
 
-###In style.xml
+### In style.xml
 ```xml
 <style name="InvestSeekBarTheme" parent="Widget.AppCompat.SeekBar">
     <item name="android:progressBackgroundTint">@color/color_gray</item>
@@ -121,7 +121,7 @@ public class TextThumbSeekBar extends AppCompatSeekBar {
 </style>
 ```
 
-###And finaly in your layour
+### And finaly in your layour
 ```xml
 <com.yourpackage.TextThumbSeekBar
         android:layout_width="220dp"
